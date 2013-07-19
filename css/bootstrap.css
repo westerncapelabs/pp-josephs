@@ -75,7 +75,7 @@ a:hover{color:#705b26;text-decoration:underline;}
 p{margin:0 0 9px;}p small{font-size:11px;color:#d1d5d8;}
 .lead{margin-bottom:18px;font-size:20px;font-weight:200;line-height:27px;}
 h1,h2,h3,h4,h5,h6{margin:0;font-family:inherit;font-weight:bold;color:inherit;text-rendering:optimizelegibility;}h1 small,h2 small,h3 small,h4 small,h5 small,h6 small{font-weight:normal;color:#d1d5d8;}
-h1{font-size:20px;background-color:#0e0f0f;display:block;padding:7px 10px;margin-bottom:10px;line-height:36px;}h1 small{font-size:18px;}
+h1{font-size:20px;background-color:#0e0f0f;display:block;padding:7px 10px 7px 25px;margin-bottom:10px;line-height:36px;}h1 small{font-size:18px;}
 h2{font-size:18px;margin-bottom:8px;line-height:36px;}h2 small{font-size:18px;}
 h3{font-size:18px;line-height:27px;}h3 small{font-size:14px;}
 h4,h5,h6{line-height:18px;}
@@ -741,6 +741,7 @@ div.rightside-link{margin:20px 5px;}
 div.rightside-link a:link,div.rightside-link a:active,div.rightside-link a:hover,div.rightside-link a:visited{color:#999696;}
 div.rightside-link strong{color:#ffffff;}
 hr.rightside{border-top:4px dotted #9d8246;border-bottom:0px;margin:0px;}
+div.extra-spacing{padding-left:25px;}
 .pull-right{float:right;}
 .pull-left{float:left;}
 .hide{display:none;}
