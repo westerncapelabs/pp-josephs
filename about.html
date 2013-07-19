@@ -29,32 +29,32 @@
                 </ul>
             </div>
 		</div>
-            <div class="btn-enquire">
-            <a href="#"><img style="cursor:hand" onclick="getElementById('hidden-div').style.display = 'block'" src="img/btns/btn_enquire.png"></a>
+            <div class="btn-enquire" id="enquire-div">
+            <a href="#"><img src="img/btns/btn_enquire.png"></a>
             </div>
-            <div class="hidden-div contact-form-enquire" id="hidden-div"> 
-            	<div class="hidden-div-formatting">
-            	<form>
+             <div class="hidden-div contact-form-enquire" id="hidden-div"> 
+                <div class="hidden-div-formatting">
+                <form>
                  <label>Name</label>
-   				 <input type="text" placeholder="Name">
+                 <input type="text" placeholder="Name">
                  <label>Surname</label>
-   				 <input type="text" placeholder="Surname">
-				<label>Contact Number</label>
-   				 <input type="text" placeholder="Contact Number">
+                 <input type="text" placeholder="Surname">
+                <label>Contact Number</label>
+                 <input type="text" placeholder="Contact Number">
                  <label>Email</label>
-   				 <input type="text" placeholder="Email">
+                 <input type="text" placeholder="Email">
                  <label>Nature of Enquiry</label>
-   				 <select>
+                 <select>
                   <option>Nature of Enquiry</option>
                   <option>Nature of Enquiry</option>
                   <option>Nature of Enquiry</option>
-				</select>
+                </select>
                 <button class="btn" type="submit">Send</button>
                 </form>
                 <hr class="rightside">
-                	<div class="number-spacing">
-               		or call us on <span class="number">011 317 8824</span>
-                	</div>
+                    <div class="number-spacing">
+                    or call us on <span class="number">011 317 8824</span>
+                    </div>
                 </div>
             </div>
     </div>
@@ -240,6 +240,22 @@ Contact Joseph’s Incorporated Attorneys for a free consultation.
     
 
 </div>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<script type="text/javascript">
+ 
+$(document).ready(function(){
 
+    var hiddenBox = $( "#hidden-div" );
+    $( "#enquire-div" ).on( "mouseover", function( event ) {
+      hiddenBox.show();
+    }); 
+
+   hiddenBox.mouseleave(function(e){
+     setTimeout(function() { hiddenBox.hide(); }, 250);
+    })
+ 
+});
+ 
+</script>
 </body>
 </html>
