@@ -29,8 +29,8 @@
                 </ul>
             </div>
 		</div>
-            <div class="btn-enquire">
-            <a href="#"><img style="cursor:hand" onclick="getElementById('hidden-div').style.display = 'block'" src="img/btns/btn_enquire.png"></a>
+            <div class="btn-enquire" id="enquire-div">
+            <a href="#"><img src="img/btns/btn_enquire.png"></a>
             </div>
              <div class="hidden-div contact-form-enquire" id="hidden-div"> 
             	<div class="hidden-div-formatting">
@@ -230,6 +230,24 @@ Contact Joseph’s Incorporated Attorneys for a free consultation.
     
 
 </div>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<script type="text/javascript">
+ 
+$(document).ready(function(){
+
+    var hiddenBox = $( "#hidden-div" );
+    $( "#enquire-div" ).on( "mouseover", function( event ) {
+      hiddenBox.show();
+    }); 
+
+   hiddenBox.mouseleave(function(e){
+     setTimeout(function() { hiddenBox.hide(); }, 250);
+    })
+ 
+});
+ 
+</script>
+
 
 </body>
 </html>
