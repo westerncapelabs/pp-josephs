@@ -720,8 +720,10 @@ div.container{max-width:940px;background-color:#050708;}
 hr.gold-line{border-top:1px solid #9d8246;border-bottom:0px;margin:0px;}
 div.btn-enquire{position:absolute;bottom:0px;right:0px;}
 .hidden-div{display:none;}
-div.hidden-div-formatting{padding:15px;}
-div.contact-form-enquire{position:absolute;bottom:-395px;right:0px;width:325px;height:395px;background-color:#343233;}
+div.hidden-div-formatting{padding:15px 40px;}
+div.contact-form-enquire{position:absolute;bottom:-415px;right:0px;width:305px;height:415px;background-color:#343233;}
+span.number{font-size:22px;}
+div.number-spacing{display:block;margin-top:10px;}
 div.contact-form-enquire-container{position:relative;}
 div.footerstyle{padding-left:20px;}
 .lengthened-header{margin-bottom:0px;}
